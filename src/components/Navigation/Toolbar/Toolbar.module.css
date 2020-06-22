@@ -1,0 +1,62 @@
+.Toolbar {
+	height: 56px;
+	width:100%;
+	display: flex;
+	flex-flow: row;
+	position: fixed;
+	top:0;
+	left:0;
+	justify-content: space-between;
+	background-color: #703b09;
+	color:white;
+	align-items: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+	z-index: 90;
+}
+
+.Toolbar nav {
+	height: 100%;
+}
+
+/*@media (min-width: 500px){
+	.Toolbar {
+
+	}
+}*/
+
+@media (max-width: 499px) {
+	.DesktopOnly {
+		display: none;
+	}
+}
+
+.Logo {
+	height:60%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	/*margin-bottom: 32px;*/
+	margin-left:200px;
+}
+
+.Logo img {
+	height: 80%;
+}
+
+
+@media (min-width: 500px) {
+	.Logo {
+	height:90%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	margin:0 auto;
+}
+
+.Logo img {
+	height: 90%;
+}
+}

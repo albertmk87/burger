@@ -1,0 +1,29 @@
+.Logo {
+	height:11%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	margin-bottom: 10px;
+	
+}
+
+.Logo img {
+	height: 80%;
+}
+
+
+@media (min-width: 500px) {
+	.Logo {
+	height:90%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	margin:0 auto;
+}
+
+.Logo img {
+	height: 90%;
+}
+}

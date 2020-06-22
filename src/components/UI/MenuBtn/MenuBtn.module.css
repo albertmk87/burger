@@ -1,0 +1,39 @@
+/*.MenuBtn {
+	background-color: transparent;
+	border:2px solid #CF8F2E;
+	color:white;
+	padding: 5px;
+}*/
+
+.MenuBtn {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+@media (min-width: 500px){
+.MenuBtn {
+		display: none;
+	}
+
+}
+
+
+.MenuBtn div {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
+}

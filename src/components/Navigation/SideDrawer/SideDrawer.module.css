@@ -1,0 +1,59 @@
+.SideDrawer {
+	position: fixed;
+	width: 320px;
+	max-width: 70%;
+	height: 100%;
+	left:0;
+	top:0;
+	z-index: 200;
+	background-color: white;
+	padding: 32px 16px;
+	box-sizing: border-box;
+	transition: transform 0.6s ease-out;
+}
+
+@media (min-width: 500px) {
+	.SideDrawer {
+		display: none;
+	}
+}
+
+.Open {
+	transform: translateX(0);
+}
+
+
+.Close {
+	transform: translateX(-100);
+	display: none;
+}
+
+
+.Logo {
+	height:11%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.Logo img {
+	height: 80%;
+}
+
+
+@media (min-width: 500px) {
+	.Logo {
+	height:90%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+	margin:0 auto;
+}
+
+.Logo img {
+	height: 90%;
+}
+}
